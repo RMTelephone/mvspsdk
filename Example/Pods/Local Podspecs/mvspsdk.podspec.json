@@ -1,22 +1,26 @@
 {
   "name": "mvspsdk",
-  "version": "0.1.0",
-  "summary": "A short description of mvspsdk.",
+  "version": "6",
+  "summary": "streamax of mvspsdk for iOS",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/16422230/mvspsdk",
+  "homepage": "https://github.com/RMTelephone/mvspsdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "16422230": "liucong@streamax.com"
+    "jgyhc": "jgyhc@foxmail.com"
   },
   "source": {
-    "git": "https://github.com/16422230/mvspsdk.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/RMTelephone/mvspsdk.git",
+    "branch": "main",
+    "tag": "6"
   },
   "platforms": {
     "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
   },
   "source_files": "mvspsdk/Classes/**/*",
   "vendored_libraries": "mvspsdk/SDK/*.a",

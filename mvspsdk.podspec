@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mvspsdk'
-  s.version          = '5'
+  s.version          = '7'
   s.summary          = 'streamax of mvspsdk for iOS'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   s.source_files = 'mvspsdk/Classes/**/*'
   
   # s.resource_bundles = {
