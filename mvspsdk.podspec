@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mvspsdk'
-  s.version          = '4'
+  s.version          = '5'
   s.summary          = 'streamax of mvspsdk for iOS'
 
 # This description is used to generate tags and improve search results.
@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/RMTelephone/mvspsdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rm' => 'liucong@streamax.com' }
-  s.source           = { :git => 'https://github.com/RMTelephone/mvspsdk.git', :tag => s.version.to_s }
+  s.author           = { 'jgyhc' => 'jgyhc@foxmail.com' }
+  s.source           = { :git => 'https://github.com/RMTelephone/mvspsdk.git', :branch=>'main', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
