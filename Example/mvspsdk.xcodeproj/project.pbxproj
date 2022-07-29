@@ -246,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = 16422230;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3JA8A6TVH9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -475,6 +478,7 @@
 			baseConfigurationReference = 58144FE88EBB8B201061B50D /* Pods-mvspsdk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JA8A6TVH9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mvspsdk/mvspsdk-Prefix.pch";
 				INFOPLIST_FILE = "mvspsdk/mvspsdk-Info.plist";
@@ -491,6 +495,7 @@
 			baseConfigurationReference = 10D024AB54695FAECF488E63 /* Pods-mvspsdk_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JA8A6TVH9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mvspsdk/mvspsdk-Prefix.pch";
 				INFOPLIST_FILE = "mvspsdk/mvspsdk-Info.plist";
