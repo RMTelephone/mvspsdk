@@ -1,0 +1,6 @@
+framework module mvspsdk {
+  umbrella header "mvspsdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

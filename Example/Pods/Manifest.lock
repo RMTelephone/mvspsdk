@@ -1,0 +1,16 @@
+PODS:
+  - mvspsdk (0.1.0)
+
+DEPENDENCIES:
+  - mvspsdk (from `../`)
+
+EXTERNAL SOURCES:
+  mvspsdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mvspsdk: ec9dc7384d6c2e800d6a0ed3524a41bba4e1bd07
+
+PODFILE CHECKSUM: 5604b67a11969f9e9a78119c8fb6c1e813cb1a4b
+
+COCOAPODS: 1.11.3
